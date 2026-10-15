@@ -3,19 +3,7 @@
 <body><header><a class="brand" href="#"><span class="logo">N</span> NEON<span>TOOLS</span></a><div class="status"><i id="dot"></i><span id="connection">Connecting</span></div></header>
 <main><section id="home"><div class="hero"><div class="eyebrow">✦ YOUR SPACE. YOUR PEOPLE.</div><h1>Good conversations.<br><span>No complications.</span></h1><p>Create a room, share the code, and talk. No account form, no phone number, no fuss.</p></div>
 <div class="google-wrap"><button id="googleSignIn" class="google-btn" type="button"><span class="google-mark">G</span><span>Sign in with Google</span><span class="google-arrow">↗</span></button><p>Optional — sign in with your Google account</p></div>
-<div class="otp-panel">
-  <div class="otp-heading"><span class="otp-icon">✦</span><div><h2>Sign in with a code</h2><p>Choose email or SMS. No password needed.</p></div></div>
-  <div class="otp-methods"><button id="emailOtpMethod" class="otp-method active" type="button">✉ Email OTP</button><button id="phoneOtpMethod" class="otp-method" type="button">▣ Phone SMS</button></div>
-  <label id="otpTargetLabel" for="otpTarget">Email address</label>
-  <input id="otpTarget" type="email" autocomplete="email" placeholder="you@example.com">
-  <button id="sendOtp" class="otp-send" type="button">Send verification code <span>→</span></button>
-  <div id="otpVerifyArea" class="otp-verify hidden">
-    <label for="otpCode">6-digit verification code</label>
-    <input id="otpCode" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="Enter the code">
-    <button id="verifyOtp" class="otp-send" type="button">Verify and sign in <span>✓</span></button>
-  </div>
-  <p class="otp-note">SMS sign-in requires phone auth and an SMS provider configured in Supabase.</p>
-</div><div class="cards"><article><div class="icon blue">＋</div><h2>Create a room</h2><p>Start a private space and invite your people.</p><label for="createName">Your display name</label><input id="createName" maxlength="24" placeholder="e.g. Alex"><button id="create" class="primary">Create room <b>↗</b></button></article>
+<div class="cards"><article><div class="icon blue">＋</div><h2>Create a room</h2><p>Start a private space and invite your people.</p><label for="createName">Your display name</label><input id="createName" maxlength="24" placeholder="e.g. Alex"><button id="create" class="primary">Create room <b>↗</b></button></article>
 <article><div class="icon purple">↗</div><h2>Join a room</h2><p>Got a code from a friend? You're one step away.</p><label for="joinName">Your display name</label><input id="joinName" maxlength="24" placeholder="e.g. Alex"><label for="code">Room code</label><input id="code" maxlength="6" placeholder="ENTER CODE" class="code"><button id="join" class="secondary">Join room <b>→</b></button></article></div>
 <div class="perks"><span>✓ No sign-up</span><span>✓ Works on mobile</span><span>✓ Free to use</span></div>
 <div id="setup" class="notice">ⓘ <span><b>Backend setup required:</b> create a free Supabase project, enable anonymous sign-ins, run <code>supabase.sql</code>, then add your URL and public anon key in <code>config.js</code>. See README.</span></div></section>

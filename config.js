@@ -1,5 +1,5 @@
-// Supabase public project configuration. Never put a service_role/secret key here.
+// Public browser configuration. Never put a service_role/secret key here.
 window.NEAO_CONFIG = {
-  SUPABASE_URL: "https://YOUR-PROJECT.supabase.co",
-  SUPABASE_ANON_KEY: "YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY"
+  SUPABASE_URL: "https://xocizxszrqiexfxculsa.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_kkoFxldELeXQCUXTYpr_Qg_mejrPEyD"
 };
